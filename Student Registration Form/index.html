@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration Form</title>
+</head>
+<body>
+
+  <h1>Student Registration Form (All Input Type)</h1>
+  <br><br><br>
+
+  <form action="#">
+
+    <label>Full Name: <br>
+      <input type="text" placeholder="Enter your name"><br><br>
+    </label>
+
+    <label>Email: <br>
+      <input type="email" placeholder="Enter your email"><br><br>
+    </label>
+
+    <label>Password: <br>
+      <input type="password" placeholder="Enter your password"><br><br>
+    </label>
+
+    <label>Number: <br>
+      <input type="number" placeholder="Enter your number"><br><br>
+    </label>
+
+    <label>Age: <br>
+      <input type="number" placeholder="Enter your age"><br><br>
+    </label>
+
+    <label>Date of Birth: <br>
+      <input type="date"><br><br>
+    </label>
+
+    <label>Preferred Class Time: <br>
+      <input type="time" value="09:00"><br><br>
+    </label>
+
+    <fieldset>
+      <legend>Gender:</legend>
+      <input type="radio" name="gender" id="male">
+      <label for="male">Male</label><br>
+      <input type="radio" name="gender" id="female">
+      <label for="female">Female</label><br>
+      <input type="radio" name="gender" id="other">
+      <label for="other">Other</label>
+    </fieldset><br><br>
+
+    <label>Hobbies:</label><br>
+    <input type="checkbox" name="hobby" id="reading">
+    <label for="reading">Reading</label><br>
+    <input type="checkbox" name="hobby" id="sports">
+    <label for="sports">Sports</label><br>
+    <input type="checkbox" name="hobby" id="music">
+    <label for="music">Music</label><br>
+    <input type="checkbox" name="hobby" id="coding">
+    <label for="coding">Coding</label><br><br>
+
+    <label>Country:<br>
+      <select name="country">
+        <option value="">--Select--</option>
+        <option value="india">India</option>
+        <option value="bangladesh">Bangladesh</option>
+        <option value="srilanka">Sri Lanka</option>
+      </select>
+    </label><br><br>
+
+    <label>Profile Description:<br>
+      <textarea rows="4" cols="40" placeholder="Write about yourself..."></textarea>
+    </label><br><br>
+
+    <label>Rate Your Interest (1–10):<br>
+      <input type="range" min="1" max="10" value="5">
+    </label><br><br>
+
+    <label>Favorite Color:<br>
+      <input type="color" value="#000000">
+    </label><br><br>
+
+    <label>Upload Resume or Photo:<br>
+      <input type="file">
+    </label><br><br>
+
+    <label>Your Website:<br>
+      <input type="url" placeholder="https://github.com/sourav4152">
+    </label><br><br>
+
+    <label>Search Subject:<br>
+      <input type="search" placeholder="Search...">
+    </label><br><br>
+
+    <label>
+      <input type="checkbox" required>
+      I agree to Terms
+    </label><br><br>
+
+    <button type="submit">Register</button>
+    <button type="reset">Reset</button>
+    <button type="button">Click Me</button>
+
+  </form>
+
+</body>
+</html>
