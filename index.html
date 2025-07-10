@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraordinary Crepe House</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h2>Crepe House</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#menu" class="nav-link">Menu</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Great Crêpes. Great Company.</h1>
+            <p class="hero-subtitle">We think crêpes are the cat's pajamas, but we also know there's nothing quite like being surrounded by friends and family.</p>
+            <a href="#menu" class="cta-button">View Our Menu</a>
+        </div>
+        <div class="hero-image">
+            <img src="" alt="Delicious Crepes" class="hero-img">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">Our Story</h2>
+                <p class="about-text">We founded our spiffy establishment in 2021 to offer a comfortable and fun place to connect with friends, new and old, over great food that anyone can enjoy.</p>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <img src="" alt="Made Fresh Icon">
+                        </div>
+                        <h3>Made Fresh</h3>
+                        <p>All of our crêpes and a selection of condiments and beverages are made fresh in-house.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <img src="" alt="Home Grown Icon">
+                        </div>
+                        <h3>Home Grown</h3>
+                        <p>We work with local farms and suppliers to provide our ingredients year-round whenever possible.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <img src="" alt="Upscale Comfort Icon">
+                        </div>
+                        <h3>Upscale Comfort</h3>
+                        <p>More than just a restaurant. Find a comfortable seat for some coffee, or find a table to play games with your friends.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <img src="" alt="For Everybody Icon">
+                        </div>
+                        <h3>For Everybody</h3>
+                        <p>We offer a variety of crepes and options for those with dietary restrictions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2 class="section-title">Our Menu</h2>
+            <p class="menu-subtitle">Variety is the spice of life— that's why we offer a wide assortment of crêpes to satisfy your tastebuds.</p>
+            
+            <div class="menu-tabs">
+                <button class="tab-button active" data-tab="sweet">Sweet</button>
+                <button class="tab-button" data-tab="savory">Savory</button>
+                <button class="tab-button" data-tab="beverages">Beverages</button>
+            </div>
+
+            <div class="menu-content">
+                <div class="tab-content active" id="sweet">
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-image">
+                                <img src="" alt="Strawberry & Banana Crepe">
+                            </div>
+                            <div class="menu-info">
+                                <h3>Strawberry & Banana</h3>
+                                <p>Strawberries and bananas drizzled in our made-in-house, dairy-free chocolate hazelnut spread.</p>
+                                <span class="price">$12</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-image">
+                                <img src="" alt="Apples & Cinnamon Crepe">
+                            </div>
+                            <div class="menu-info">
+                                <h3>Apples & Cinnamon</h3>
+                                <p>MacIntosh apples stewed in pumpkin ale, topped with cinnamon.</p>
+                                <span class="price">$12</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-image">
+                                <img src="" alt="Peaches & Cream Crepe">
+                            </div>
+                            <div class="menu-info">
+                                <h3>Peaches & Cream</h3>
+                                <p>Local Ontario peaches and sweet vanilla bean cream.</p>
+                                <span class="price">$14</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-image">
+                                <img src="" alt="The Berries Crepe">
+                            </div>
+                            <div class="menu-info">
+                                <h3>The Berries</h3>
+                                <p>Blackberries, strawberries and blueberries served with custard and raspberry coulis.</p>
+                                <span class="price">$13</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="savory">
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-image">
+                                <img src="" alt="Smoked Salmon Crepe">
+                            </div>
+                            <div class="menu-info">
+                                <h3>Smoked Salmon</h3>
+                                <p>Canadian smoked salmon, sautéed spinach and sun-dried tomatoes.</p>
+                                <span class="price">$17</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-image">
+                                <img src="" alt="Mushroom & Wild Rice Crepe">
+                            </div>
+                            <div class="menu-info">
+                                <h3>Mushroom & Wild Rice</h3>
+                                <p>Sautéed brown mushrooms and bell peppers, garnished with scallions over wild rice.</p>
+                                <span class="price">$14</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-image">
+                                <img src="" alt="Country Ham Crepe">
+                            </div>
+                            <div class="menu-info">
+                                <h3>Country Ham</h3>
+                                <p>Dry-aged country ham with sauteed kale and fried eggs sprinkled with goat cheese.</p>
+                                <span class="price">$17</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-image">
+                                <img src="" alt="Kale & Artichoke Crepe">
+                            </div>
+                            <div class="menu-info">
+                                <h3>Kale & Artichoke</h3>
+                                <p>Sautéed kale and oven-roasted artichokes topped with brie cheese.</p>
+                                <span class="price">$14</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="beverages">
+                    <div class="beverage-categories">
+                        <div class="beverage-section">
+                            <h3>Coffee</h3>
+                            <div class="beverage-list">
+                                <div class="beverage-item">
+                                    <span>Café</span>
+                                    <span class="price">$4</span>
+                                </div>
+                                <div class="beverage-item">
+                                    <span>Espresso</span>
+                                    <span class="price">$3</span>
+                                </div>
+                                <div class="beverage-item">
+                                    <span>Cappuccino</span>
+                                    <span class="price">$5</span>
+                                </div>
+                                <div class="beverage-item">
+                                    <span>Café Latte</span>
+                                    <span class="price">$5</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="beverage-section">
+                            <h3>Wine & Cocktails</h3>
+                            <div class="beverage-list">
+                                <div class="beverage-item">
+                                    <span>Mimosa</span>
+                                    <span class="price">$7</span>
+                                </div>
+                                <div class="beverage-item">
+                                    <span>Bellini</span>
+                                    <span class="price">$8</span>
+                                </div>
+                                <div class="beverage-item">
+                                    <span>Cosmopolitan</span>
+                                    <span class="price">$8</span>
+                                </div>
+                                <div class="beverage-item">
+                                    <span>House Wine</span>
+                                    <span class="price">$12</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="experience-grid">
+                <div class="experience-content">
+                    <h2 class="section-title">Find Your Crew</h2>
+                    <div class="info-cards">
+                        <div class="info-card">
+                            <h3>Hours</h3>
+                            <div class="hours">
+                                <div class="day-hours">
+                                    <span>Monday - Thursday</span>
+                                    <span>11AM to 11PM</span>
+                                </div>
+                                <div class="day-hours">
+                                    <span>Friday - Saturday</span>
+                                    <span>11AM to 1AM</span>
+                                </div>
+                                <div class="day-hours">
+                                    <span>Sunday</span>
+                                    <span>8AM to 1AM</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <h3>Contact</h3>
+                            <div class="contact-info">
+                                <p>(613)-192-0800</p>
+                                <p>crew@crepehouse.ca</p>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <h3>Location</h3>
+                            <div class="location-info">
+                                <p>920 Brittany Street<br>
+                                Ottawa, ON<br>
+                                K2E 3C2</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="newsletter">
+                    <h3>Be in the know</h3>
+                    <p>Be the first to find out about new promotions, products and events by joining our email list today!</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" class="email-input">
+                        <button type="submit" class="submit-btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-nav">
+                    <a href="#about">About</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <p class="copyright">© Crepe House 2024</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
